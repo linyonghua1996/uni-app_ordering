@@ -1,0 +1,1 @@
+<view class="ordering"><view class="nav" style="{{('height:'+nav.height+'px;'+'padding-top:'+nav.top+'px;padding-bottom:10rpx')}}"><view data-event-opts="{{[['tap',[['goback']]]]}}" class="goBack" bindtap="__e">返回</view><view class="navigator">点餐</view></view><view><view class="container"><sort-selection vue-id="724f3cc0-1" bind:__l="__l"></sort-selection></view></view></view>

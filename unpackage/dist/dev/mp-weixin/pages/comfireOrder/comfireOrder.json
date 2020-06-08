@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "确认订单",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
+    "van-field": "/wxcomponents/vant/dist/field/index",
+    "van-goods-action": "/wxcomponents/vant/dist/goods-action/index",
+    "van-goods-action-button": "/wxcomponents/vant/dist/goods-action-button/index"
+  }
+}

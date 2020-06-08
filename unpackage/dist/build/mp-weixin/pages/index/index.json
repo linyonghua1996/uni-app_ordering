@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "首页",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-fab": "/components/uni-fab/uni-fab",
+    "van-notice-bar": "/wxcomponents/vant/dist/notice-bar/index",
+    "swiper": "/pages/index/conponents/swiper/swiper",
+    "recommend": "/pages/index/conponents/recommend/recommend",
+    "introduce": "/pages/index/conponents/introduce/introduce"
+  }
+}

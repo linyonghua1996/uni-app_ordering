@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/me/me",
+    "pages/shopBag/shopBag",
+    "pages/ordering/ordering",
+    "pages/comfireOrder/comfireOrder",
+    "pages/evaluate/evaluate",
+    "pages/comment/comment",
+    "pages/allComment/allComment",
+    "pages/userSettings/userSettings"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "点餐",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#cccccc",
+    "selectedColor": "#FBCA18",
+    "backgroundColor": "#fff",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/首页-未选中.png",
+        "selectedIconPath": "static/images/首页-选中.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "static/images/我的_未选中.png",
+        "selectedIconPath": "static/images/我的_选中.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

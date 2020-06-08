@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "我的订单",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-segmented-control": "/components/uni-segmented-control/uni-segmented-control",
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
+    "van-button": "/wxcomponents/vant/dist/button/index",
+    "van-count-down": "/wxcomponents/vant/dist/count-down/index"
+  }
+}

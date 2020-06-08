@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "van-col": "/wxcomponents/vant/dist/col/index",
+    "van-row": "/wxcomponents/vant/dist/row/index",
+    "van-tag": "/wxcomponents/vant/dist/tag/index",
+    "van-overlay": "/wxcomponents/vant/dist/overlay/index"
+  }
+}

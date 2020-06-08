@@ -1,0 +1,126 @@
+
+.nav{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+}
+.goBack{
+	width: 80px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.goBack::before{
+	content: '';
+	width: 10px;
+	height: 10px;
+	border-left: 1px solid #000;
+	border-bottom: 1px solid #000;
+	-webkit-transform: rotate(45deg);
+	        transform: rotate(45deg);
+}
+.navigator {
+	-webkit-box-flex:1;
+	-webkit-flex:1;
+	        flex:1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	background: #fff;
+	font-size: 30rpx;
+	font-weight: 700;
+	padding-left: 23%;
+}
+.ordering {
+	position: relative;
+}
+.container {
+	height: 100%;
+}
+.bottom {
+	position: fixed;
+	bottom: 0;
+	line-height: 70px;
+	background: -webkit-linear-gradient(left, #ff9500, #FBCA18);
+	background: linear-gradient(to right, #ff9500, #FBCA18);
+	color: #fff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	width: 100%;
+	height: 70px;
+	color: 20px;
+}
+.bottomLeft {
+	width: 70%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	padding-right: 10px;
+}
+.bottomTotal {
+	width: 25%;
+	position: relative;
+}
+.shopBag {
+	background: -webkit-linear-gradient(left, #ff9500, #FBCA18);
+	background: linear-gradient(to right, #ff9500, #FBCA18);
+	width: 95rpx;
+	height: 95rpx;
+	border-radius: 50%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	position: absolute;
+	top: -15px;
+	left: 15px;
+}
+.shopBagImage {
+	width: 70rpx;
+	height: 70rpx;
+}
+.bottomNumber {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	font-size: 25px
+}
+.bottomRight {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	font-size: 20px;
+	text-align: center;
+}
+

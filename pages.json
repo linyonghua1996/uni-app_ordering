@@ -1,0 +1,98 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom",
+				"usingComponents": {
+					"van-notice-bar": "/wxcomponents/vant/dist/notice-bar/index"
+				}
+			}
+		},
+		{
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/shopBag/shopBag",
+			"style": {
+				"navigationBarTitleText": "购物袋",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/ordering/ordering",
+			"style": {
+				"navigationBarTitleText": "点餐",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/comfireOrder/comfireOrder",
+			"style": {
+				"navigationBarTitleText": "确认订单",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/evaluate/evaluate",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/comment/comment",
+			"style": {
+				"navigationBarTitleText": "评价",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/allComment/allComment",
+			"style": {
+				"navigationBarTitleText": "所有评价",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/userSettings/userSettings",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"navigationStyle": "custom"
+			}
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "点餐",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#cccccc",
+		"selectedColor": "#FBCA18",
+		"backgroundColor": "#fff",
+		"position": "bottom",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/images/首页-未选中.png",
+				"selectedIconPath": "static/images/首页-选中.png"
+			},
+			{
+				"pagePath": "pages/me/me",
+				"text": "我的",
+				"iconPath": "static/images/我的_未选中.png",
+				"selectedIconPath": "static/images/我的_选中.png"
+			}
+		]
+	}
+
+}

@@ -1,0 +1,135 @@
+
+.sortSelection {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	width: 100%;
+	/* height: 100%; */
+	height: calc(100vh - 80px);
+}
+.leimu {
+	width: 20%;
+	background-color: #f3f3f3;
+	height: 100%;
+}
+.leimuItem {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	/* font-weight: 600; */
+}
+.active {
+	color: #ff9500;
+	border-left: 3px solid #ff9500;
+	background-color: #fff;
+}
+.food {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	height: 100%;
+}
+.foodCard {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	margin-top: 5px;
+	padding: 5px;
+}
+.foodImage {
+	width: 160rpx;
+	height: 180rpx;
+}
+.img {
+	width: 100%;
+	height: 100%;
+}
+.foodDeatil {
+	-webkit-box-flex: 2;
+	-webkit-flex: 2;
+	        flex: 2;
+	padding-left: 10rpx;
+}
+.foodName {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 18px;
+}
+.sortVolume {
+	font-size: 16px;
+	color: #000;
+	margin: 5px 0 5px 0;
+}
+.foodPrice {
+	font-size: 20px;
+	color: #ff0000;
+	font-weight: 600;
+}
+.amountBtn {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: end;
+	-webkit-align-items: flex-end;
+	        align-items: flex-end;
+	padding-bottom: 20px;
+	padding-right: 20px;
+}
+.number {
+	text-align: center;
+}
+.add_btn,
+.sub_btn {
+	width: 100%;
+	height: 100%;
+}
+.sub,
+.add {
+	width: 20px;
+	height: 20px;
+}
+.sub,
+.number,
+.add {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+.logo{
+	position: absolute;
+	top: -22px;
+	left: 47px;
+	width: 22px;
+	height: 22px;
+	background: #ff0000;
+	border-radius: 50%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.bottomCenterBase{
+	font-size:25px
+}
+

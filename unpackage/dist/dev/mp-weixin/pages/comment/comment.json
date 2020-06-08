@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "评价",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-rate": "/components/uni-rate/uni-rate",
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
+    "van-button": "/wxcomponents/vant/dist/button/index"
+  }
+}
